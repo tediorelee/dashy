@@ -1,47 +1,102 @@
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: TEDIORELEE
+  description: 你觉得恨却离不开
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: GitHub
+      path: https://github.com/tediorelee
+      target: newtab
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: one-dark
+  layout: auto
+  iconSize: small
+  language: en
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: Media & Entertainment
+    icon: fas fa-photo-video
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Qbittorrent
+        description: downloader
+        icon: hl-qbittorrent
+        url: http://qbit.leejieun.fan:2333/
+        target: newtab
+        statusCheck: true
+        id: 0_1956_qbittorrent
+      - title: Emby
+        description: video streaming
+        icon: hl-emby
+        url: http://emby.leejieun.fan:2333/web/index.html
+        target: newtab
+        statusCheck: true
+        id: 1_1956_emby
+      - title: Jellyfin
+        description: video streaming
+        icon: hl-jellyfin
+        url: http://jellyfin.leejieun.fan:2333/web/index.html#!/selectserver.html
+        target: newtab
+        statusCheck: true
+        id: 2_1956_jellyfin
+  - name: OpenWRT
+    icon: fas fa-ethernet
+    displayData:
+      sortBy: alphabetical
+      rows: 2
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: DDNS-GO
+        description: simple ddns service
+        url: http://ddns.leejieun.fan:2333/
+        target: newtab
+        statusCheck: true
+        id: 0_655_ddnsgo
+      - title: Nginx WebUI
+        description: nginx webui
+        url: http://192.168.2.1:3344/adminPage/monitor
+        target: newtab
+        statusCheck: true
+        id: 1_655_nginxwebui
+  - name: Cloud
+    icon: fas fa-cloud
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Vaultwarden
+        description: password manager
+        icon: hl-bitwarden
+        url: https://vault.leejieun.fan/#/
+        target: newtab
+        statusCheck: true
+        id: 0_503_vaultwarden
+      - title: Qinglong
+        description: shell script management
+        url: https://qinglong.leejieun.fan/
+        target: newtab
+        statusCheck: true
+        id: 1_503_qinglong
+  - name: NAS
+    icon: fas fa-computer
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: TrueNAS
+        description: nas server
+        icon: hl-truenas
+        url: http://nas.leejieun.fan:2333/
+        target: newtab
+        statusCheck: true
+        id: 0_226_truenas
