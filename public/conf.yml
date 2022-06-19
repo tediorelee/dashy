@@ -84,6 +84,12 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_503_qinglong
+      - title: Frp
+        icon: ''
+        url: http://vault.leejieun.fan:6443/
+        target: newtab
+        statusCheck: true
+        id: 2_503_frp
   - name: NAS
     icon: fas fa-computer
     displayData:
@@ -100,3 +106,9 @@ sections:
         target: newtab
         statusCheck: true
         id: 0_226_truenas
+      - title: Res-Sync
+        icon: ''
+        url: http://sync.leejieun.fan:2333/
+        target: newtab
+        statusCheck: true
+        id: 1_226_ressync
