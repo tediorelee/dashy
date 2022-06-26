@@ -1,6 +1,6 @@
 pageInfo:
   title: TEDIORELEE
-  description: 你觉得恨却离不开
+  description: HomeLab
   navLinks:
     - title: GitHub
       path: https://github.com/tediorelee
@@ -41,6 +41,11 @@ sections:
         target: newtab
         statusCheck: true
         id: 2_1956_jellyfin
+      - title: mTube
+        icon: hl-youtubedl
+        url: http://tube.leejieun.fan:2333/
+        target: newtab
+        id: 3_1956_mtube
   - name: OpenWRT
     icon: fas fa-ethernet
     displayData:
@@ -52,12 +57,14 @@ sections:
     items:
       - title: DDNS-GO
         description: simple ddns service
+        icon: hl-ddns-updater
         url: http://ddns.leejieun.fan:2333/
         target: newtab
         statusCheck: true
         id: 0_655_ddnsgo
       - title: Nginx WebUI
         description: nginx webui
+        icon: hl-nginx
         url: http://192.168.2.1:3344/adminPage/monitor
         target: newtab
         statusCheck: true
@@ -80,12 +87,13 @@ sections:
         id: 0_503_vaultwarden
       - title: Qinglong
         description: shell script management
+        icon: hl-qinglong
         url: https://qinglong.leejieun.fan/
         target: newtab
         statusCheck: true
         id: 1_503_qinglong
       - title: Frp
-        icon: ''
+        icon: hl-ddns-updater
         url: http://vault.leejieun.fan:6443/
         target: newtab
         statusCheck: true
@@ -107,8 +115,61 @@ sections:
         statusCheck: true
         id: 0_226_truenas
       - title: Res-Sync
-        icon: ''
+        icon: hl-resiliosync
         url: http://sync.leejieun.fan:2333/
         target: newtab
         statusCheck: true
         id: 1_226_ressync
+      - title: Home Assistant
+        icon: hl-home-assistant
+        url: http://ha.leejieun.fan:2333/
+        target: newtab
+        statusCheck: true
+        id: 2_226_homeassistant
+      - title: Alist
+        icon: hl-syncthing
+        url: http://alist.leejieun.fan:2333/
+        target: newtab
+        statusCheck: true
+        id: 3_226_alist
+      - title: PiHole
+        icon: hl-pihole
+        url: http://ph.leejieun.fan:2333/
+        target: newtab
+        statusCheck: true
+        id: 4_226_pihole
+  - name: IPV6 Only
+    icon: fas fa-cloud
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jellyfin
+        description: ''
+        icon: hl-jellyfin
+        url: http://ddns.leejieun.fan:8096
+        target: newtab
+        id: 0_743_jellyfin
+      - title: Qbittorrent
+        icon: hl-qbittorrent
+        url: http://ddns.leejieun.fan:10095
+        target: newtab
+        id: 1_743_qbittorrent
+      - title: Emby
+        icon: hl-emby
+        url: http://ddns.leejieun.fan:8097/web/index.html#!/home
+        target: newtab
+        id: 2_743_emby
+      - title: OpenWRT
+        icon: hl-openwrt
+        url: https://ddns.leejieun.fan
+        target: newtab
+        id: 3_743_openwrt
+      - title: TrueNAS
+        icon: hl-truenas
+        url: ddns.leejieun.fan:3378/ui/sessions/signin
+        target: newtab
+        id: 4_743_truenas
