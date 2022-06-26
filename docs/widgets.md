@@ -535,7 +535,7 @@ _No Options_
 
 [AnonAddy](https://anonaddy.com/) is a free and open source mail forwarding service. Use it to protect your real email address, by using a different alias for each of your online accounts, and have all emails land in your normal inbox(es). Supports custom domains, email replies, PGP-encryption, multiple recipients and more
 
-This widget display email addresses / aliases from AnonAddy. Click an email address to copy to clipboard, or use the toggle switch to enable/ disable it. Shows usage stats (bandwidth, used aliases etc), as well as total messages recieved, blocked and sent. Works with both self-hosted and managed instances of AnonAddy.
+This widget display email addresses / aliases from AnonAddy. Click an email address to copy to clipboard, or use the toggle switch to enable/ disable it. Shows usage stats (bandwidth, used aliases etc), as well as total messages received, blocked and sent. Works with both self-hosted and managed instances of AnonAddy.
 
 <p align="center"><img width="400" src="https://i.ibb.co/ZhfyRdV/anonaddy.png" /></p>
 
@@ -651,7 +651,7 @@ Display current FX rates in your native currency. Hover over a row to view more 
 ##### Info
 - **CORS**: 🟢 Enabled
 - **Auth**: 🔴 Required
-- **Price**: 🟠 Free plan (upto 100,000 requests/ month)
+- **Price**: 🟠 Free plan (up to 100,000 requests/ month)
 - **Host**: Managed Instance Only
 - **Privacy**: _See [ExchangeRateAPI Privacy Policy](https://www.exchangerate-api.com/terms)_
 
@@ -765,7 +765,7 @@ Show recent scores and upcoming matches from your favourite sports team. Data is
 ##### Info
 - **CORS**: 🟢 Enabled
 - **Auth**: 🟠 Optional
-- **Price**: 🟠 Free plan (upto 30 requests / minute, limited endpoints)
+- **Price**: 🟠 Free plan (up to 30 requests / minute, limited endpoints)
 - **Host**: Managed Instance Only
 - **Privacy**: ⚫ No Policy Available
 
@@ -801,7 +801,7 @@ Displays the latest news, click to read full article. Date is fetched from vario
 ##### Info
 - **CORS**: 🟢 Enabled
 - **Auth**: 🔴 Required
-- **Price**: 🟠 Free plan (upto 600 requests / day)
+- **Price**: 🟠 Free plan (up to 600 requests / day)
 - **Host**: Managed Instance Only
 - **Privacy**: _See [CurrentsAPI Privacy Policy](https://currentsapi.services/privacy)_
 
@@ -875,7 +875,7 @@ Shows recent price history for a given publicly-traded stock or share
 ##### Info
 - **CORS**: 🟢 Enabled
 - **Auth**: 🔴 Required
-- **Price**: 🟠 Free plan (upto 500 requests/day)
+- **Price**: 🟠 Free plan (up to 500 requests/day)
 - **Host**: Managed Instance Only
 - **Privacy**: _See [AlphaVantage Privacy Policy](https://www.alphavantage.co/privacy/)_
 
@@ -996,7 +996,7 @@ Displays airport departure and arrival flights, using data from [AeroDataBox](ht
 ##### Info
 - **CORS**: 🟢 Enabled
 - **Auth**: 🔴 Required
-- **Price**: 🟠 Free plan (upto 150 requests / month)
+- **Price**: 🟠 Free plan (up to 150 requests / month)
 - **Host**: Managed Instance Only
 - **Privacy**: _See [AeroDataBox](https://www.aerodatabox.com/#h.p_CXtIYZWF_WQd) and [RapidAPI Policy](https://rapidapi.com/privacy/)_
 
@@ -1148,7 +1148,7 @@ Cron job monitoring using [Health Checks](https://github.com/healthchecks/health
 ##### Info
 - **CORS**: 🟢 Enabled
 - **Auth**: 🔴 Required
-- **Price**: 🟠 Free plan (upto 20 services, or self-host for unlimited)
+- **Price**: 🟠 Free plan (up to 20 services, or self-host for unlimited)
 - **Host**: Managed Instance or Self-Hosted (see [GitHub - HealthChecks](https://github.com/healthchecks/healthchecks))
 - **Privacy**: _See [Health-Checks Privacy Policy](https://healthchecks.io/privacy/)_
 
