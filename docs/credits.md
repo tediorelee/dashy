@@ -89,8 +89,8 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/boggy-cs">
-            <img src="https://avatars.githubusercontent.com/u/82003678?v=4" width="80;" alt="boggy-cs"/>
+        <a href="https://github.com/bog-y">
+            <img src="https://avatars.githubusercontent.com/u/82003678?v=4" width="80;" alt="bog-y"/>
             <br />
             <sub><b>Bogyeong Kim</b></sub>
         </a>
